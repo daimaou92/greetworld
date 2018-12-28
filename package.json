@@ -1,0 +1,29 @@
+{
+  "name": "greetworld",
+  "version": "1.0.0",
+  "description": "Typescript world greeter",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "greet",
+    "hello",
+    "world",
+    "simple",
+    "node",
+    "npm"
+  ],
+  "author": "DaiMaou",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "typescript": "^3.2.2"
+  }
+}
