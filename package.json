@@ -1,7 +1,11 @@
 {
   "name": "greetworld",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript world greeter",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/daimaou92/greetworld"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -18,8 +22,8 @@
     "node",
     "npm"
   ],
-  "author": "DaiMaou",
-  "license": "MIT",
+  "author": "daimaou92",
+  "license": "SEE LICENSE IN LICENSE",
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.2.0",
