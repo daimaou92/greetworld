@@ -1,5 +1,7 @@
 # greetworld
-A node.js module that just greets the world
+A node.js module that just greets the world.
+Small test package made to investigate creating npm modules with in-built typescript support.
+Main goal of publishing this is as an example for the underlying structure.
 
 ## Installation
 ```sh
