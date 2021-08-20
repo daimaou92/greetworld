@@ -3,13 +3,13 @@
   "version": "1.0.2",
   "description": "Typescript world greeter",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/daimaou92/greetworld"
+    "type": "git",
+    "url": "https://github.com/daimaou92/greetworld"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "mocha --reporter spec",
+    "test": "tsc && mocha --reporter spec",
     "build": "tsc"
   },
   "keywords": [
@@ -24,10 +24,9 @@
   ],
   "author": "daimaou92",
   "license": "SEE LICENSE IN LICENSE",
-  "dependencies": {},
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^5.2.0",
+    "mocha": "^9.1.0",
     "typescript": "^3.2.2"
   }
 }
